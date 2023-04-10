@@ -1,7 +1,3 @@
-#Based on configs from https://starship.rs, including:
-# https://starship.rs/presets/nerd-font.html
-
-
 [aws]
 symbol = "  "
 
@@ -10,11 +6,6 @@ symbol = " "
 
 [c]
 symbol = " "
-
-[character]
-success_symbol = "[➜](bold green)"
-error_symbol = "[➜](red)"
-vicmd_symbol = "[❮](green)"
 
 [conda]
 symbol = " "
