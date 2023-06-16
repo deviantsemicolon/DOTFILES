@@ -1,0 +1,55 @@
+
+
+spacing = 1
+padding = 1
+hide_ascii = true
+prefer_small_ascii = true
+separator = "=>"
+separator_color = "#b3e1a3"
+key_color = "#f0afe1"
+
+[palette]
+glyph = "  "
+type = "Light"
+visible = false
+
+[bar]
+glyph = "●"
+symbol_open = "["
+symbol_close = "]"
+visible = false
+hide_delimiters = false
+
+[box]
+title = " Holy Hell! "
+border = "double"
+visible = true
+
+[box.inner_margin]
+x = 2
+y = 1
+
+[custom_ascii]
+color = "#c6aae8"
+path = "~/.config/macchina/eos.ascii"
+
+[keys]
+host            = "Host"
+kernel          = "Kernel"
+battery         = "Battery"
+os              = "OS"
+de              = "DE"
+wm              = "WM"
+distro          = "Distro"
+terminal        = "Terminal"
+shell           = "Shell"
+packages        = "Packages"
+uptime          = "Uptime"
+memory          = "Memory"
+machine         = "Machine"
+local_ip        = "IP"
+backlight       = "Brightness"
+resolution      = "Resolution"
+cpu_load        = "CPU Load"
+cpu             = "CPU"
+gpu             = "GPU"
